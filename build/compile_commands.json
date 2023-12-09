@@ -1,7 +1,7 @@
 [
 {
-  "directory": "C:/workspace/line_detection_project/build",
-  "command": "C:\\LLVM\\bin\\clang++.exe   -isystem C:/opencv/opencv-4.5.5/build -isystem C:/opencv/opencv-4.5.5/include -isystem C:/opencv/opencv-4.5.5/modules/core/include -isystem C:/opencv/opencv-4.5.5/modules/flann/include -isystem C:/opencv/opencv-4.5.5/modules/imgproc/include -isystem C:/opencv/opencv-4.5.5/modules/ml/include -isystem C:/opencv/opencv-4.5.5/modules/photo/include -isystem C:/opencv/opencv-4.5.5/modules/dnn/include -isystem C:/opencv/opencv-4.5.5/modules/features2d/include -isystem C:/opencv/opencv-4.5.5/modules/imgcodecs/include -isystem C:/opencv/opencv-4.5.5/modules/videoio/include -isystem C:/opencv/opencv-4.5.5/modules/calib3d/include -isystem C:/opencv/opencv-4.5.5/modules/highgui/include -isystem C:/opencv/opencv-4.5.5/modules/objdetect/include -isystem C:/opencv/opencv-4.5.5/modules/stitching/include -isystem C:/opencv/opencv-4.5.5/modules/video/include -isystem C:/opencv/opencv-4.5.5/modules/gapi/include -isystem C:/opencv/opencv-4.5.5/modules/world/include -isystem C:/opencv/opencv-4.5.5/modules/ts/include  -g   -o CMakeFiles\\line_detection_project.dir\\src\\main.cpp.obj -c C:\\workspace\\line_detection_project\\src\\main.cpp",
-  "file": "C:/workspace/line_detection_project/src/main.cpp"
+  "directory": "/home/harim/workspace/line_detection_project/build",
+  "command": "/usr/bin/clang++   -I/usr/local/include/opencv, -isystem /usr/local/include/opencv  -g   -o CMakeFiles/line_detection_project.dir/src/sliding_window.cpp.o -c /home/harim/workspace/line_detection_project/src/sliding_window.cpp",
+  "file": "/home/harim/workspace/line_detection_project/src/sliding_window.cpp"
 }
 ]

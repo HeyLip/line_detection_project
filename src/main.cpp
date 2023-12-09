@@ -23,7 +23,7 @@ int main()
 	vector<Point2f> pts1, pts2;
 	VideoCapture cap;
 
-	if(cap.open("C:\\workspace\\line_detection_project\\resource\\Sub_project.avi") == false){
+	if(cap.open("/home/harim/workspace/line_detection_project/resource/Sub_project.avi") == false){
 		cerr << "Video load failed!" << endl;
 		return -1;
 	}
@@ -94,6 +94,15 @@ vector<Point2f> find_edges(const Mat& img, const String& direction)
 	GaussianBlur(fimg, blr, Size(), 1.);
 
 	threshold(blr, binary_img, 165, 255, THRESH_BINARY_INV);
+
+	for(int32_t x = 0; x < img.cols; x++) {
+		for(int32_t y = 0; y < img.rows; y++){
+			cout << binary_img.at<float>(y,x) << ", ";
+		}
+		cout << endl;
+	}
+
+	imshow("binary", binary_img);
 
 	Sobel(binary_img, dx_binary, CV_32F, 1, 0);
 
